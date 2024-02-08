@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        p {
+          text-align: center;
+          font-size: 60px;
+          margin-top: 0px;}
+        </style>
+<div class="contenttt">
+    <img src="offers/Offer 1.jpg" alt="" width="100%" height="100%">
+    <div class="layerr">
+    </div>
+    <div class="contenetchild">
+        <div class="bgimg">
+            <div class="middle">
+              <h1> <span>C</span>OMING <span>S</span>OON</h1>
+              <hr>
+            <p id="demo"> 366d 17h 18m 57s </p>
+            </div>
+            <div class="bottomleft">
+              <p><Span id="sp"> <b>Independence Day</Span></b> <small> Offer With big deal </small></p>
+              <h2> <b>UPTO 70% OFF </b>
+              </h2>
+            </div>
+          </div>
+    </div>
+</div>
+  <script>
+    var countDownDate = new Date("aug 14, 2023 12:00:00").getTime();
+    var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate - now;
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+    </script>
+</body>
+</html>
+  

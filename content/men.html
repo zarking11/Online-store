@@ -1,0 +1,1666 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/solid.min.css"
+        integrity="sha512-EvFBzDO3WBynQTyPJI+wLCiV0DFXzOazn6aoy/bGjuIhGCZFh8ObhV/nVgDgL0HZYC34D89REh6DOfeJEWMwgg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/brands.min.css"
+        integrity="sha512-nS1/hdh2b0U8SeA8tlo7QblY6rY6C+MgkZIeRzJQQvMsFfMQFUKp+cgMN2Uuy+OtbQ4RoLMIlO2iF7bIEY3Oyg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      
+   <!--Header-->
+  <header class="blog-header mx-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+        <b class="ml-2">visitors</b> <br>
+        <i class="fa-solid fa-2x fa-eye ml-3 text-info"></i> <br>
+        <h6 class="ml-4" id="CounterVisitor"><b></b></h6>
+      </div>
+      <div class="col-4 text-center my-2 p-5">
+        <section>
+          <div class="content">
+            <h2>Thrift Fashion</h2>
+            <h2>Thrift Fashion</h2><br>
+            <b>Pre Used, But you can't realize</b>
+          </div>
+        </section>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-end flex-column">
+        <div class=" d-flex justify-content-end align-items-center flex-column">
+          <i class="fa-solid fa-2x fa-user text-info"></i>
+          <b id="un">Username</b>
+        </div>
+      </div>
+
+
+    </div>
+  </header>
+
+  <!--Navbar-->
+<nav class="navbar navbar-expand-lg bg-info navbar-dark nav">
+  <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-white" href="index.html"><b>Home</b> <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="about.html"><b>About Us</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="contact.html"><b>Feedback</b></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <b>Categories</b>
+        </a>
+        <div class="dropdown-menu text-white" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="men.html">Men</a>
+          <a class="dropdown-item" href="women.html">Women</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="offer.html">Offers</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="contact.html"><b>Contact Us</b></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" id="search" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" onclick="searchitem()" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+  <!--shirts-->
+  <div class="container my-5">
+
+    <div class="row">
+      <div class="col-md-12 text-center mb-5">
+        <h2><i>men's Shirts</i></h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 " id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/shirts/tshirt1.png" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$80.00</h5>
+            </small>
+            <p>
+            <h5>Black Shirt</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="blackshirt.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+              <a href="blackshirt.html">
+                <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                  class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+              </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/shirts/shirt2.png" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$35.00</h5>
+            </small>
+            <p>
+            <h5>Check Shirt</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="checkshirt.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="checkshirt.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/shirts/shirt3.png" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$55.00</h5>
+            </small>
+            <p>
+            <h5>Red And White Shirt</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="red&whiteshirt.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="red&whiteshirt.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/shirts/shirt4.webp" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>&nbsp;$80.00</h5>
+            </small>
+            <p>
+            <h5>Purple Shirt</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="dinosorousshirt.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+               <a href="dinosorousshirt.html">
+                <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                  class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+               </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/shirts/shirt5.webp" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$85.00</h5>
+            </small>
+            <p>
+            <h5>Yellow Check Shirt</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="yellowcheckshirt.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+               <a href="yellowcheckshirt.html">
+                <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                  class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+               </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/shirts/tshirt6.jpg" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$40.00</h5>
+            </small>
+            <p>
+            <h5>Blue Stretchible Shirt</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="bluetshirt.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="bluetshirt.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/shirts/tshirt7.jpg" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$60.0</h5>
+            </small>
+            <p>
+            <h5>Black And Orange Shirt</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="black&orangeshirt.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="black&orangeshirt.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/shirts/shirt8.jpg" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$85.00</h5>
+            </small>
+            <p>
+            <h5>Pink Check Shirt</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="pinkcheckshirt.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="pinkcheckshirt.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/shirts/tshirt9.jpg" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$25.00</h5>
+            </small>
+            <p>
+            <h5>Grey Colar Shirt</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="greycolarshirt.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="greycolarshirt.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/shirts/shirt10.jpg" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$15.00</h5>
+            </small>
+            <p>
+            <h5>Camel Color Shirt</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="camelcolorshirt.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+               <a href="camelcolorshirt.html">
+                <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                  class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+               </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/shirts/shirt11.png" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$50.00</h5>
+            </small>
+            <p>
+            <h5>Blue Green Check Shirt</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="bluegreencheckshirt.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="bluegreencheckshirt.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/shirts/shirt12.webp" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$38.00</h5>
+            </small>
+            <p>
+            <h5>Colorfull Shirt</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="colorful.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+               <a href="colorful.html">
+                <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                  class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+               </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!--paints-->
+  <div class="container my-5">
+
+    <div class="row">
+      <div class="col-md-12 text-center mb-5">
+        <h2><i>men's Pants</i></h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 " id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/pants/pant1.png" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$80.00</h5>
+            </small>
+            <p>
+            <h5>Black Jeans</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="blackjens.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="blackjens.html"></a>
+                <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                  class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/pants/pant2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$35.00</h5>
+            </small>
+            <p>
+            <h5>Blue Jeans</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="bluejeanss.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="bluejeanss.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+                
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/pants/pant3.jpg" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$55.00</h5>
+            </small>
+            <p>
+            <h5>Blue Damage Pant</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="bluedamage.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="bluedamage.html">
+                <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                  class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/pants/pant4.png" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>&nbsp;$80.00</h5>
+            </small>
+            <p>
+            <h5>Black Damage Pant</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="blackdamage.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="blackdamage.html">
+                <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                  class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/pants/pant5.jpg" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$85.00</h5>
+            </small>
+            <p>
+            <h5>Cotton Pants</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="cottonpants.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="cottonpants.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/pants/pant6.jpg" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$40.00</h5>
+            </small>
+            <p>
+            <h5>Cotton Folded Pant</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="cottonfoldpant.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="cottonfoldpant.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/pants/pant7.jpg" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$60.0</h5>
+            </small>
+            <p>
+            <h5>Shaded Pant</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="shadedjeans.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="shadedjeans.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/pants/pant8.png" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$85.00</h5>
+            </small>
+            <p>
+            <h5>White Soft Pants</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="whitesoftpant.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="whitesoftpant.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/pants/pant9.jpg" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$25.00</h5>
+            </small>
+            <p>
+            <h5>Brown Dress Pant</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="browndresspant.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="browndresspant.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!--shoes-->
+  <div class="container my-5">
+
+    <div class="row">
+      <div class="col-md-12 text-center mb-5">
+        <h2><i>men's Shoes</i></h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 " id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/shoes/shoes1.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$80.00</h5>
+            </small>
+            <p>
+            <h5>Brown Snackers</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="brownsnaker.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="brownsnaker.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/shoes/shoes2.png" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$35.00</h5>
+            </small>
+            <p>
+            <h5>Cream Snackers</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="creamsnaker.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="creamsnaker.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/shoes/shoes3.jpg" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$55.00</h5>
+            </small>
+            <p>
+            <h5>Grey And Blue Snackers</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="greybluesnaker.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="greybluesnaker.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/shoes/shoes4.jpg" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>&nbsp;$80.00</h5>
+            </small>
+            <p>
+            <h5>Brown Boots</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="brownboot.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="brownboot.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/shoes/shoes5.jpg" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$85.00</h5>
+            </small>
+            <p>
+            <h5>Black Snackers</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="blackjoker.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="blackjoker.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/shoes/shoes6.jpg" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$40.00</h5> 
+            </small>
+            <p>
+            <h5>Blue And Black Snackers</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="bluejoker.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="bluejoker.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+     <!--hoodies-->
+  <div class="container my-5">
+
+    <div class="row">
+      <div class="col-md-12 text-center mb-5">
+        <h2><i>men's hoodies</i></h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 " id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/hoodies/hoodie1.png" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$80.00</h5>
+            </small>
+            <p>
+            <h5>Green Hudi</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="greenhudi.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="greenhudi.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/hoodies/hoodie2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$35.00</h5>
+            </small>
+            <p>
+            <h5>Denim Hudi</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="denimhudi.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="denimhudi.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/hoodies/hoodie3.jpg" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$55.00</h5>
+            </small>
+            <p>
+            <h5>Black Hudi</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="blackhudi.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="blackhudi.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/hoodies/hoodie4.webp" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>&nbsp;$80.00</h5>
+            </small>
+            <p>
+            <h5>Brown Hudi</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="brownhudi.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="brownhudi.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/hoodies/hoodie5.jpg" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$85.00</h5>
+            </small>
+            <p>
+            <h5>Multi Hudi</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="multihudi.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="multihudi.html">
+                <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                  class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" id="item">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" src="menswear/hoodies/hoodie6.webp" alt="Card image cap">
+          <div class="card-body">
+            <small class="text-success">
+              <h5>$40.00</h5>
+            </small>
+            <p>
+            <h5>Seablue Hudi</h5>
+            </p>
+            <p><b>Rating : <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                  class="fa-solid fa-star text-warning"></i></b></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="seabluehudi.html">
+                  <button type="button" class="btn btn-sm btn-outline-success">Buy now</button>
+                </a>
+                <a href="seabluehudi.html">
+                  <button type="button" class="btn btn-sm btn-outline-primary mx-2 px-4"><i
+                    class="fa-solid fa-cart-shopping"></i>&nbsp; Add to cart</button>
+                </a>
+              </div>
+              <small class="text-success"><b>In stock</b></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Footer start-->
+  <div>
+    <!-- Footer -->
+    <footer
+            class="text-center text-lg-start mt-3 text-dark"
+            style="background-color: #ffffff"
+            >
+      <!-- Section: Social media -->
+      <section
+               class="d-flex justify-content-between p-4 text-white bg-info"
+               >
+        <!-- Left -->
+        <div >
+          <center><b>Get connected with us on social networks:</b></center>
+        </div>
+        <!-- Left -->
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold "><b>Thrift Fashion</b></h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #31b6e1; height: 2px"
+                  back
+                  />
+              <p>
+               Thrift store chic refers to a style of dressing where clothes are cheap and/or used
+              </p>
+              
+              <form>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  
+                
+                <div class="form-group form-check">
+                  <button type="submit" class="btn btn-info" id="tele"> <i class="fa-brands fa-telegram"></i></button>
+                </div>
+            </div>
+          </div>
+        </form>
+            
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold"><b>Where We are</b></h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #31b6e1; height: 2px"
+                  />
+              <p>
+                <a href="#!" class="text-dark">Karachi</a>
+              </p>
+              <p>
+                <a href="#!" class="text-dark">Lahore</a>
+              </p>
+              <p>
+                <a href="#!" class="text-dark">IslamAbad</a>
+              </p>
+              <p>
+                <a href="#!" class="text-dark">Gilgit Baltistan</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold bg.dark"><b>Useful links</b></h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #31b6e1; height: 2px"
+                  />
+              <p>
+                <a href="#!" class="text-dark">Your Account</a>
+              </p>
+              <p>
+                <a href="#!" class="text-dark">Become an Affiliate</a>
+              </p>
+              <p>
+                <a href="#!" class="text-dark">Shipping Rates</a>
+              </p>
+              <p>
+                <a href="#!" class="text-dark">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold" id="cont"><b>Contact</b></h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #31b6e1; height: 2px"
+                  />
+              <p><i class="fas fa-home mr-5 mt-2"></i> B13 Gulshan-e-Iqbal, <br> Karachi City</p>
+              <p><i class="fas fa-envelope mr-5"></i>Thrift.pk@gmail.com</p>
+              <p><i class="fas fa-phone mr-5"></i> + 92 311 05129 42</p>
+              <p><i class="fas fa-print mr-5"></i> + 92 234 56777 89</p>
+              
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+  
+      <!-- Copyright -->
+      <div
+           class="text-center p-3"
+           style="background-color: rgba(0, 0, 0, 0.2)"
+           >
+        © 2020 Copyright:
+        <a class="text-dark" href="#"
+           >Thriftshop.com</a>
+           <br>
+           Created by Aptech F.B Area, Team: Tech-Beaters.
+      </div>
+    </footer>
+
+  <!-- Footer End-->
+
+  <button onclick="topFunction()" id="myBtn" class="rounded-circle bg-info" title="Go to top"><i class="fa-solid fa-arrow-up text-light fx-1"></i></button>
+
+  <script>
+      username = prompt("Enter Your First Name")
+
+document.getElementById("un").innerHTML = username ;
+
+//Go to top button
+var mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+/*visiter*/
+      
+
+var n = localStorage.getItem('on_load_counter');
+
+if (n === null) {
+  n = 0;
+}
+n++;
+
+localStorage.setItem("on_load_counter", n);
+
+nums = n.toString().split('').map(Number);
+document.getElementById('CounterVisitor').innerHTML = '';
+for (var i of nums) {
+  document.getElementById('CounterVisitor').innerHTML += '<span class="counter-item">' + i + '</span>';
+}
+
+function searchitem(){
+      input = document.getElementById("search").value;
+      if( input == "Authentic Navy Blue Pant" ){
+        url = "content/authentic.html";
+        window.open(url);
+      }
+      else if( input == "fashion Autumn women shirt" ){
+        url = "content/autumn.html";
+        window.open(url);
+      }
+      else if( input == "fashion Autumn women shirt" ){
+        url = "content/autumn.html";
+        window.open(url);
+      }
+    
+    else if( input == "Green Bell Bottom" ){
+      url = "content/bell.html";
+      window.open(url);
+    }
+
+    else if( input == "black&orangeshirt" ){
+      url = "content/black&orangeshirt.html";
+      window.open(url);
+    }
+      else if( input == "blackdamage" ){
+        url = "content/blackdamage.html";
+        window.open(url);
+      }
+      else if( input == "blackhudi" ){
+        url = "content/blackhudi.html";
+        window.open(url);
+ 
+      }
+      else if( input == "blackjeans" ){
+        url = "content/blackjens.html";
+        window.open(url);
+      }
+      else if( input == "blackjoker" ){
+        url = "content/blackjoker.html";
+        window.open(url);
+      }
+
+      else if( input == "blackshirt" ){
+      url = "content/blackshirt.html";
+      window.open(url);
+      }
+
+     else if( input == "bluedamage" ){
+        url = "content/bluedamage.html";
+        window.open(url);
+      }
+
+      else if( input == "bluegreencheckshirt" ){
+        url = "content/bluegreencheckshirt.html";
+        window.open(url);
+      }
+
+      else if( input == "bluegreencheckshirt" ){
+        url = "content/bluegreencheckshirt.html";
+        window.open(url);
+        
+      }  
+
+      else if( input == "bluejeanss" ){
+        url = "content/bluejeanss.html";
+        window.open(url);
+      }
+
+     else if( input == "bluejoker" ){
+        url = "content/bluejoker.html";
+        window.open(url);
+      }
+      
+   
+      else if( input == "bluejoker" ){
+        url = "content/bluejoker.html";
+        window.open(url);
+      }
+    
+    
+      else if( input == "blueshirt"){
+        url = "content/bluetshirt.html";
+        window.open(url);
+      }
+    
+    
+      else if( input == "breathable" ){
+        url = "content/breathable.html";
+        window.open(url);
+      }
+   
+    
+      else if( input == "brownboot" ){
+        url = "content/brownboot.html";
+        window.open(url);
+      }
+      
+    
+      else if( input == "browndresspant" ){
+        url = "content/browndresspant.html";
+        window.open(url);
+      }
+   
+   
+      else if( input == "brownhudi" ){
+        url = "content/brownhudi.html";
+        window.open(url);
+      }
+  
+    
+      else if( input == "brownsnaker" ){
+        url = "content/brownsnaker.html";
+        window.open(url);
+      }
+  
+   
+      else if( input == "camelcolorshirt" ){
+        url = "content/camelcolorshirt.html";
+        window.open(url);
+      }
+    
+    
+      else if( input == "casual" ){
+        url = "content/casual.html";
+        window.open(url);
+      }
+    
+   
+      else if( input == "chaning" ){
+        url = "content/chaning.html";
+        window.open(url);
+      }
+    
+      else if( input == "chaning2" ){
+        url = "content/chaning2.html";
+        window.open(url);
+      }
+   
+   
+      else if( input == "chaning3" ){
+        url = "content/chaning3.html";
+        window.open(url);
+      }
+    
+    
+      else if( input == "checkshirt" ){
+        url = "content/checkshirt.html";
+        window.open(url);
+      }
+   
+    
+      else if( input == "Chiffon Belt Blouse" ){
+        url = "content/chiffon.html";
+        window.open(url);
+      }
+   
+   
+      else if( input == "colorful" ){
+        url = "content/colorful.html";
+        window.open(url);
+      }
+   
+      else if( input == "colorfullhudi" ){
+        url = "content/colorfullhudi.html";
+        window.open(url);
+      }
+    
+   
+      else if( input == "cotton" ){
+        url = "content/cotton.html";
+        window.open(url);
+      }
+      
+      else if( input == "cottonfoldpant" ){
+        url = "content/cottonfoldpant.html";
+        window.open(url);
+      }
+  
+      else if( input == "cottonpants" ){
+        url = "content/cottonpants.html";
+        window.open(url);
+      }
+   
+    
+      else if( input == "cottonquarter" ){
+        url = "content/cottonquarter.html";
+        window.open(url);
+      }
+  
+   
+      else if( input == "creamsnaker" ){
+        url = "content/creamsnaker.html";
+        window.open(url);
+      }
+   
+   
+      else if( input == "denimhudi" ){
+        url = "content/denimhudi.html";
+        window.open(url);
+      }
+    
+   
+      else if( input == "dinosorousshirt" ){
+        url = "content/dinosorousshirt.html";
+        window.open(url);
+      }
+   
+  
+      else if( input == "essential" ){
+        url = "content/essential.html";
+        window.open(url);
+      }
+  
+   
+      else if( input == "fashionkart" ){
+        url = "content/fashionkart.html";
+        window.open(url);
+      }
+  
+   
+      else if( input == "flapper" ){
+        url = "content/flapper.html";
+        window.open(url);
+      }
+    
+    
+      else if( input == "grace" ){
+        url = "content/grace.html";
+        window.open(url);
+      }
+   
+      else if( input == "green" ){
+        url = "content/green.html";
+        window.open(url);
+      }
+   
+   
+      else if( input == "greenhudi" ){
+        url = "content/greenhudi.html";
+        window.open(url);
+      }
+    
+    
+      else if( input == "greybluesnaker" ){
+        url = "content/greybluesnaker.html";
+        window.open(url);
+      }
+  
+   
+      else if( input == "greycolarshirt" ){
+        url = "content/greycolarshirt.html";
+        window.open(url);
+      }
+    
+    
+      else if( input == "hudiwithhalfwhite" ){
+        url = "content/hudiwithhalfwhite.html";
+        window.open(url);
+      }
+   
+      else if( input == "hudiwithpockets" ){
+        url = "content/hudiwithpockets.html";
+        window.open(url);
+      }
+   
+   
+      else if( input == "leopard" ){
+        url = "content/leopard.html";
+        window.open(url);
+      }
+    
+    
+      else if( input == "long" ){
+        url = "content/long.html";
+        window.open(url);
+      }
+    
+   
+      else if( input == "mehroonhudi" ){
+        url = "content/mehroonhudi.html";
+        window.open(url);
+      }
+    
+   
+      else if( input == "multihudi" ){
+        url = "content/multihudi.html";
+        window.open(url);
+      }
+    
+    
+      else if( input == "pantwithbow" ){
+        url = "content/pantwithbow.html";
+        window.open(url);
+      }
+   
+   
+      else if( input == "pinkcheckshirt" ){
+        url = "content/pinkcheckshirt.html";
+        window.open(url);
+      }
+  
+      else if( input == "pinkhudi" ){
+        url = "content/pinkhudi.html";
+        window.open(url);
+      }
+    
+   
+      else if( input == "quarter" ){
+        url = "content/quarter.html";
+        window.open(url);
+      }
+   
+   
+      else if( input == "red&whiteshirt" ){
+        url = "content/red&whiteshirt.html";
+        window.open(url);
+      }
+    
+    
+      else if( input == "seabluehudi" ){
+        url = "content/seabluehudi.html";
+        window.open(url);
+      }
+   
+    
+      else if( input == "shadedjeans" ){
+        url = "content/shadedjeans.html";
+        window.open(url);
+      }
+  
+      else if( input == "simplecotton" ){
+        url = "content/simplecotton.html";
+        window.open(url);
+      }
+    
+    
+      else if( input == "skurt" ){
+        url = "content/skurt.html";
+        window.open(url);
+      }
+  
+   
+      else if( input == "snaker" ){
+        url = "content/snaker.html";
+        window.open(url);
+      }
+   
+      
+      else if( input == "strectchless" ){
+        url = "content/stretchless.html";
+        window.open(url);
+      }
+    
+      else if( input == "threecoloredhudi" ){
+        url = "content/threecoloredhudi.html";
+        window.open(url);
+      }
+   
+   
+      else if( input == "trouser" ){
+        url = "content/trouser.html";
+        window.open(url);
+      }
+   
+      else if( input == "vintage" ){
+        url = "content/vintage.html";
+        window.open(url);
+      }
+    
+      else if( input == "white" ){
+        url = "content/white.html";
+        window.open(url);
+      }
+   
+      else if( input == "whitesoftpant" ){
+        url = "content/whitesoftpant.html";
+        window.open(url);
+      }
+
+      else if( input == "yellowcheckshirt" ){
+        url = "content/yellowcheckshirt.html";
+        window.open(url);
+      }
+      else{
+        alert("this type of item is not available")
+      }
+    }
+
+  </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
